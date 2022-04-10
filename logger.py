@@ -9,7 +9,7 @@ from google.auth.transport.requests import Request
 from googleapiclient.http import MediaFileUpload
 
 # Remember to restore file after antivirus removes it lmao.
-
+"""
 SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly', 'https://www.googleapis.com/auth/drive.file']
 UPDATE_THRESHOLD = 25
 folder_id = None
@@ -104,3 +104,4 @@ def main():
 if __name__ == "__main__":
     create_new_folder()
     main()
+"""
